@@ -11,7 +11,8 @@ function Order() {
 
   if (isLoading) return <Loader />;
   if (error) return <div>Error: {error.message}</div>;
-  if (!orders || orders.length === 0) return <div>No orders found.</div>;
+  if (!orders || orders.length === 0)
+    return <div className="text-center p-20 text-4xl">No orders found.</div>;
 
   return (
     <div className="p-6 bg-gray-100 dark:bg-gray-800 min-h-screen">

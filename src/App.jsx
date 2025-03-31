@@ -16,6 +16,7 @@ import SignUp from "./auth/SignUp";
 import ProtectedRoute from "./ui/ProtectedRoute";
 import LogIn from "./auth/LogIn";
 import Order from "./pages/Order";
+import AboutUs from "./pages/Aboutus";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -35,7 +36,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
 
-            <Route path="/about" element={<div>about</div>} />
+            <Route path="/about" element={<AboutUs />} />
+
             <Route path="/signup" element={<SignUp />} />
             <Route path="/login" element={<LogIn />} />
             <Route path="*" element={<div>pagenotfound</div>} />

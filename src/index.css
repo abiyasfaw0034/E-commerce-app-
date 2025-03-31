@@ -4,6 +4,7 @@
 
 :root {
   font-family: "Roboto", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: small;
   line-height: 1.5;
   font-weight: 400;
 }
