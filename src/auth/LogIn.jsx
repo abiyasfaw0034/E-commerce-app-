@@ -43,7 +43,7 @@ function LogIn() {
             <label>Email</label>
             <input
               type="text"
-              placeholder="abiyasfaw1996@gmail.com"
+              placeholder="qwer@gmail.com"
               onChange={(e) => setEmail(e.target.value)}
               disabled={isLoading}
               className="w-full p-2 border rounded-lg"

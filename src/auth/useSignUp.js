@@ -9,7 +9,7 @@ export function useSignup() {
     mutationFn: signupApi,
     onSuccess: (user) => {
       console.log(user);
-      navigate("/user");
+      navigate("/product");
       toast.success("Account succesfully created!");
     },
     onError: () => {
