@@ -16,9 +16,9 @@ function AboutUs() {
                 bringing you the best products at unbeatable prices. Our
                 platform offers a seamless shopping experience with a wide range
                 of high-quality items, secure payment options, and fast
-                delivery. Whether you're looking for fashion, electronics, or
-                home essentials, we've got you covered. Shop with confidence and
-                convenience!
+                delivery. Whether you&apos;re looking for fashion, electronics,
+                or home essentials, we&apos;ve got you covered. Shop with
+                confidence and convenience!
               </p>
             </div>
           </main>
