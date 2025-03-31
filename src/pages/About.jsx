@@ -1,6 +1,6 @@
 import NavBar from "../ui/NavBar";
 
-function AboutUs() {
+function About() {
   return (
     <>
       <div className="grid h-screen overflow-hidden  grid-rows-[auto,1fr]">
@@ -28,4 +28,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default About;
